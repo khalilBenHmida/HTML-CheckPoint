@@ -1,0 +1,80 @@
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif; /* Use a similar font */
+    font-size: 72px; /* Adjust font size to match the logo */
+    color: #FF0000; /* Adjust color to match the logo */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 8px; /* Increase letter spacing */
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+  }
+
+  nav ul {
+    list-style: none;
+text-align: center;
+    padding: 0;
+    font-size: 40px;
+  }
+
+  nav ul li {
+    display: inline; /* Display items horizontally */
+    margin-right: 20px; /* Adjust spacing between items */
+  }
+  
+nav ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color:blue; /* Change link color */
+  font-weight: bold; /* Make text bold */
+}
+nav ul li a:hover {
+    color: #555; /* Change link color on hover */
+  }
+  body {
+    background-image: url("resident-evil 4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+/* Style for the h2 element */
+h2 {
+    font-family: 'Arial', sans-serif; /* Use a similar font */
+    font-size: 48px; /* Adjust font size */
+    color: #0070C0; /* Adjust color to match the logo */
+    text-transform: uppercase; /* Convert text to uppercase */
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for the ::after pseudo-element to create the star */
+  h2::after {
+    content: '\2605'; /* Unicode for a star symbol */
+    font-size: 24px; /* Adjust star size */
+    color: #FDE74C; /* Adjust star color */
+    position: absolute;
+    top: -10px; /* Adjust vertical positioning */
+    left: 110%; /* Adjust horizontal positioning */
+  }
+h2 {
+    margin-left: 500px;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: white;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    z-index: 99;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+iframe {
+    margin-left: 350px;
+}
